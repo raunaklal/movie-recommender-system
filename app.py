@@ -28,12 +28,12 @@ def recommend(movie):
     return recommended_movies#, recommended_movies_poster
 
 
-movies = pickle.load(open('movie-recommender-system-model\movies.pkl', 'rb'))
+movies = pickle.load(open('movie-recommender-system-model/movies.pkl', 'rb'))
 # print(type(movies_list))
 # movies = movies_list['title'].values
 # print(type(movies))
 
-similarity = pickle.load(open('movie-recommender-system-model\similarity.pkl', 'rb'))
+similarity = pickle.load(open('movie-recommender-system-model/similarity.pkl', 'rb'))
 
 # movies_dict = pickle.load(open('movie_dict.pkl','rb'))
 # movies = pd.DataFrame.from_dict(movies_dict)
