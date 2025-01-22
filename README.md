@@ -10,18 +10,17 @@ https://www.themoviedb.org/settings/api
 
 https://developers.themoviedb.org/3/movies/get-movie-details
 
-The application is deployed on Heroku.
+This app is hosted on Streamlit Community Cloud.
 
-https://movie-recommendation-flash.herokuapp.com/
-
+https://iflash-movie-recommender-system.streamlit.app/
 
 
 Steps to build and run this project:
 
 1) Firstly we build the model as done in movie-recommender-system.ipynb .
-2) We generate the .pkl files and copy it to the Pycharm Project folder.
+2) We generate the .pkl files .
 3) Then we run the app.py using the following command :       streamlit run app.py
-4) I have also added the files used for heroku deployment.
+4) I have also added the files used for streamlit community cloud deployment.
 
 
 Thanks
